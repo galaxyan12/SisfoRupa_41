@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sisfo Rupa</string>
+    <string name="nama">Jody</string>
+    <string name="nim">H1101171041</string>
+    <string name="fungsi1">Simulasi</string>
+    <string name="fungsi2">Cuaca</string>
+    <string name="fungsi3">Profile</string>
+    <string name="fungsi4">Nilai</string>
+    <string name="fungsi5">Music</string>
+    <string name="fungsi6">Transcript</string>
+    <string name="fungsi7">Saran</string>
+    <string name="fungsi8">Setting</string>
+    <string name="fungsi9">About Us</string>
+</resources>
