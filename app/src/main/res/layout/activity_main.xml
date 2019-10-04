@@ -158,8 +158,8 @@
                         android:id="@+id/btnGoToMusic"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
-                        android:src="@drawable/musicalnote"
-                        android:onClick="GoToMusic"/>
+                        app:srcCompat="@drawable/ic_map_black_24dp"
+                        android:onClick="bukaMaps"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -178,8 +178,8 @@
                         android:id="@+id/btnGoToTranscript"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
-                        android:src="@drawable/subtitlesblue"
-                        android:onClick="GoToTranscript"/>
+                        app:srcCompat="@drawable/ic_phone_in_talk_black_24dp"
+                        android:onClick="telponNomor"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

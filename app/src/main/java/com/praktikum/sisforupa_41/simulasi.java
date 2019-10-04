@@ -53,6 +53,15 @@ public class simulasi extends AppCompatActivity {
                 nuts = Integer.parseInt(txtuts.getText().toString());
                 nuas = Integer.parseInt(txtuts.getText().toString());
 
+                if (nk < 12){
+                    nuts = 0;
+                    nuas = 0;
+                } else if (nk > 16) {
+                    nk = 16;
+                } else {
+                    nk = nk;
+                }
+
                 mutu = (int) (nk*0.625 + nt*0.2 + nuts*0.3 + nuas*0.4);
 
                 if (mutu >= 80){
